@@ -117,23 +117,49 @@ Utuliser le service dans le composant pour recuper la liste en utilisant la meth
 <img width="622" height="308" alt="image" src="https://github.com/user-attachments/assets/39e69fb0-2b4a-44da-9e6d-3b3e278ac10e" />
 
 
+Un observable qu'est ce que c'est?
+<img width="690" height="268" alt="image" src="https://github.com/user-attachments/assets/d5407b41-03d0-4338-80ff-51cbd6fd4b79" />
+et il faut utiliser subscribe 
 
 
 # Formulaires réactifs
+<img width="571" height="364" alt="image" src="https://github.com/user-attachments/assets/44043707-005b-489f-9043-7d406ee09bc7" />
 
+- FormControl : représente un champ individuel. Il stocke la valeur, l’état (valide, invalide, modifié) et les règles de validation associées.
+- FormGroup : regroupe plusieurs contrôles logiquement liés, comme les champs d’un formulaire utilisateur (nom, email, mot de passe, etc.).
+- FormArray : gère un ensemble dynamique de contrôles, comme une liste de téléphones ou d’adresses.
+
+  Angular nous facilite ceci avec le service FormBuilder qui regroupe les 3
+  <img width="763" height="143" alt="image" src="https://github.com/user-attachments/assets/0f09b299-7e27-4d44-9cd4-70b8e16c9fb5" />
+
+
+  
 # Outils et librairies (Angular Material)
+Vous êtes grand allez voir la doc mais c'est pratique
+regarde cette exemple en un mat-tab-group
 
 # Routing Angular 🆕
+importer le provider route
+<img width="486" height="666" alt="image" src="https://github.com/user-attachments/assets/f4337c97-f903-4349-b1d2-abe911b1f669" />
+
+puis utiliser router outler dans le template
 
 # Gestion d’erreurs (422, 503, etc.)
+creation d'un service dedier (version simplifier seulement avec ce que j'ai vu il y a d'autre maniere comme les retry avec rxjs.. mais par manque de temps j'ai utiliser une logique simple qui fonctionne
+
+service
+<img width="525" height="310" alt="image" src="https://github.com/user-attachments/assets/1d597226-a56e-47f5-baac-3743776deca9" />
+
+template
+<img width="545" height="426" alt="image" src="https://github.com/user-attachments/assets/e202e107-fd0d-489c-8d64-f715d3dd65bf" />
+
+et dans le template principal un if simple 
+<img width="474" height="627" alt="image" src="https://github.com/user-attachments/assets/03eb3984-8430-4002-94c5-7f68323041a4" />
+
 
 # Évolutions possibles
-
+approfondir angular comme les signaux, gestion d'erreur les guard pour la gestion des route httpinterceptor... enormément de chose pour avoir un code optimal
 # Conclusion
+j'ai fait comme j'ai pu mais j'ai fait 19/20 j'ai dormis à 4h
 
-#
-
-#
-
-#
 
