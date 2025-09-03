@@ -56,7 +56,8 @@ dans angular.json
 "skipTests": true,
 "flat": true
 }
-} ```
+}
+```
 
 # Authentification JWT & Local Storage
 
