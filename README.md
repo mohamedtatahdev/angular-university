@@ -39,9 +39,9 @@ Maintenu par une équipe dédiée chez Google, Angular fournit un large ensemble
 
 # Les débuts dans Angular 
 1. Crée un dossier, Aller dans ce dossier, executer la commande suivante
-   ```bash
-   ng new app
-   ```
+ ```bash
+ng new app
+```
 
 2. Architecture du projet
    <img width="222" height="537" alt="image" src="https://github.com/user-attachments/assets/c410ac11-7aa8-4498-8f90-29afdad608f0" />
